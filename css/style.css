@@ -59,6 +59,11 @@ overflow: hidden;
     padding-right: 60px;
 }
 
+.widebuttpanel{
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
 .widebuttmodal{
     padding-left: 40px;
     padding-right: 40px;
@@ -66,4 +71,8 @@ overflow: hidden;
 
 .farfromsidebar{
     margin-left: 60px;
+}
+
+.smalldowntoearth{
+    padding-bottom: 10px;
 }
