@@ -1,0 +1,45 @@
+.dragul {    
+    margin: 0;
+    padding: 0;
+  }
+  /* li */
+  .dragli {
+    margin: 5px 0;
+    padding: 20px 20px;
+    width: 1000px;
+    height: auto;
+    /* line-height: 40px; */
+    border-radius: 7px;
+    background: #ffffff;
+    border: 2px solid rgba(88, 84, 84, 0.2);
+    color: #000000;
+    list-style: none;
+  }
+  
+  .dragli.drag-sort-active {
+    /* background: transparent; */
+    /* color: transparent; */
+    border: 2px solid #B1588F;
+  }
+  
+  .contentdrag{
+    display: inline-flex;
+    /* padding: 20px; */
+  }
+  
+  .coldrag{
+    display: block;
+    /* padding: 20px; */
+    
+  }
+  
+  .spaceing{
+    margin-bottom: 9px;
+  }
+  
+  .contentdraghalf{
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin-right: 30px;
+  }

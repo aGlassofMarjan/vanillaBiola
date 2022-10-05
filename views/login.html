@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Login | Biola</title>
+
+    <style>
+    .spacebutton{
+        margin-top: 40px;
+    }
+
+    .formspacer{
+        margin-top: 24px;
+    }
+    </style>
+</head>
+<body>
+    <div class="d-flex vh-100 justify-content-center align-items-center bg-light">
+        <div class="row w-100 p-3 justify-content-center">
+            <div class="col-sm-12 col-md-10 col-xl-8" style="max-width: 800px;">
+                <div class="card p-0 shadow-sm">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-5 col-lg-4 bg-white align-items-center d-none d-md-flex p-4" style="padding-top: 0px;">
+                                <!-- fill with vector -->
+                                <img src="../assets/vectorlogin.png" alt="" srcset="" style="width:260px;">
+                              </div>
+                              <div class="col p-5">
+                                  <h1 class="mb-4 text-center" style="font-size: 58px; font-family: 'Poppins';">LOGIN</h1>
+                                  
+                                  <form action="../views/student.html">  <!-- Change on Production -->
+                                      <div class="form-group row">
+                                          <div class="col-md-12">
+                                              <div class="input-group">
+                                                  <!-- <div class="input-group-prepend">
+                                                      <span class="input-group-text bg-white border-right-0">
+                                                          <i class="fa-solid fa-user"></i>
+                                                      </span>
+                                                  </div> -->
+                                                  <input type="text"
+                                                      placeholder="Username"
+                                                      class="form-control border-left-0" />
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="formspacer"></div>
+                                      <div class="form-group row">
+                                          <div class="col-md-12">
+                                              <div class="input-group">
+                                                  <!-- <div class="input-group-prepend">
+                                                      <span class="input-group-text bg-white border-right-0">
+                                                          <i class="fa-solid fa-key"></i>
+                                                      </span>
+                                                  </div> -->
+  
+                                                  <input type="password"
+                                                      placeholder="Password"
+                                                      class="form-control border-left-0" />
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="spacebutton"></div>
+                                      <div class="row">
+                                          <div class="d-grid gap-2">
+                                              <button class="btn btn-primary" type="submit"> Login </button>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
