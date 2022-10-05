@@ -34,9 +34,9 @@
             <span class="tooltip">Student</span>
         </li>
         <li>
-        <a href="./exam.html">
-            <i class='bx bx-task'></i>
-            <span class="links_name">Assesment</span>
+        <a class="active" href="./exam.html">
+            <i class='bx bx-task active'></i>
+            <span class="links_name active">Assesment</span>
         </a>
         <span class="tooltip">Assesment</span>
         </li>
@@ -48,14 +48,15 @@
         <span class="tooltip">Course</span>
         </li>
         <li class="profile">
-            <div class="profile-details">
-            <!--<i class='bx bxs-bar-chart-alt-2'></i>-->
+          <div class="profile-details">
             <div class="name_job">
-                <div class="name">Good Morning</div>
-                <div class="job">Yuda Dwi Kusnadi</div>
+                <div class="name" id="greeting"></div>
+                <div class="job">Administrator</div>
             </div>
-            </div>
-            <i class='bx bx-log-out' id="log_out" ></i>
+            <a class="button" href="./login.html">
+              <i class='bx bx-log-out' id="log_out" ></i>
+            </a>
+          </div>
         </li>
         </ul>
     </div>
@@ -138,6 +139,7 @@
         </div>
         <div class="downtoearth"></div>
     </section>
+    <script src="../script/greetings.js"></script>
     <script src="../script/sidebar.js"></script>
     <script src="../script/draggable.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>

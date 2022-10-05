@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Grape+Nuts&display=swap');
 
 .home-section{
 position: relative;
@@ -75,4 +76,8 @@ overflow: hidden;
 
 .smalldowntoearth{
     padding-bottom: 10px;
+}
+
+.navbar.navbar-expand-lg.bg-light{
+    font-size: larger;
 }
