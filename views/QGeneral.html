@@ -92,6 +92,7 @@
                   <input type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback" required>
                   <div id="validationServer03Feedback" class="invalid-feedback">Title must be filled!</div>
                 </div><br>
+
                 <div class="col-md-6">
                   <label for="exampleInputEmail1" class="form-label">Visibility</label>
                   <select class="form-select" aria-label="Default select example">
@@ -100,14 +101,14 @@
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                   </select>
-                </div>
-                <div class="morebottom"></div>
+                </div><br>
+
                 <div class="form-check form-switch">
-                  <label class="form-check-label" for="flexSwitchCheckChecked">With Video Learning</label>
-                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                </div>
-                <div class="morebottom"></div>
-                <div class="custom-file">
+                  <input class="form-check-input" type="checkbox" id="btnmedia" checked>
+                  <label class="form-check-label" for="flexSwitchCheckDefault">With Video Learning</label>
+                </div><br>
+
+                <div class="custom-file" >
                   <div style="border: dashed #A6A6A6;
                               background-color: white;
                               width: 50%; padding: 1rem 1rem;
@@ -115,9 +116,9 @@
                               z-index: 1;
                               -webkit-border-radius: 15px 15px 15px 15px;
                               border-radius: 15px 15px 15px 15px;
-                              padding-left: 1%;">
+                              padding-left: 1%;" >
         
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center" >
                       <img class="text-center"
                            style="height: 9.5rem;
                                   z-index: 1;
@@ -130,57 +131,50 @@
                             style="z-index: 2;
                                     position: absolute;
                                     opacity: 0;
-                                    width: 50%;
-                                    height: 10rem;">
+                                    width: 44%;
+                                    height: 10rem;" id="fileinput"> <!---########-->
         
                     <label class="text-center"
                             style="padding-top: 3.5rem;
                                 border: none;
                                 background: none;
-                                width: 100%;">
+                                width: 100%;" >
         
                       Drag and drop video here or <button class="btn btn-primary">Browse</button>
         
                   </label>
-                    
                   </div>
-                </div>
-                <div class="morebottom"></div>
+                </div><br>
 
                 <div class="form-check form-switch">
-                  <label class="form-check-label" for="flexSwitchCheckChecked">Set Scheduler</label>
-                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                </div>
+                  <input  class="form-check-input" type="checkbox" id='submit2' checked>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Set Schedule</label>
+                </div><br>
 
-                <div class="morebottom"></div>
                 <div class="col-md-6">
-                <label for="exampleInputEmail1" class="form-label">Start</label>
-                <div id="validationServer03Feedback" class="invalid-feedback">Date must be filled!</div>
-                  <div class="col-md-4">
-                    <input class="form-control" type="datetime-local" placeholder="Select DateTime">
-                  <!-- <span class="text-danger">{{ errors.first('requestedDate') }}</span> -->
+                  <label for="setDate" class="form-label">Start</label>
+                  <div id="validationServer03Feedback" class="invalid-feedback">Date must be filled!</div>
+                    <div class="col-md-4">
+                      <input  class="form-control" type="datetime-local" id='setDate'>   <!---####disabled####-->
+                    <!-- <span class="text-danger">{{ errors.first('requestedDate') }}</span> -->
+                  </div>
+                </div><br>
+                <div class="col-md-6">
+                  <label for="setDate2" class="form-label">End</label>
+                  <div id="validationServer03Feedback" class="invalid-feedback">Date must be filled!</div>
+                    <div class="col-md-4">
+                      <input class="form-control" type="datetime-local" id='endDate'> <!---####disabled####-->
+                    <!-- <span class="text-danger">{{ errors.first('requestedDate') }}</span> -->
+                  </div>
                 </div>
-              </div>
-              <br>
-              <div class="col-md-6">
-                <label for="exampleInputEmail1" class="form-label">End</label>
-                <div id="validationServer03Feedback" class="invalid-feedback">Date must be filled!</div>
-                  <div class="col-md-4">
-                    <input class="form-control" type="datetime-local" placeholder="Select DateTime">
-                  <!-- <span class="text-danger">{{ errors.first('requestedDate') }}</span> -->
-                </div>
-              </div>
-                <br>
               </form>
             </div>
             <div class="downtoearth"></div>
     </section>
 
-    <script>
-      
-    </script>
     <script src="../script/greetings.js"></script>
     <script src="../script/sidebar.js"></script>
+    <script src="../script/validation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
