@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Quiz - Biola</title>
+
+    <style>
+        .modal-backdrop {
+            z-index: 0;
+        }
+        </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+        <img class="icon" src="../assets/biolalogo.png" alt="" srcset="" style="width: 60px;">
+            <div class="logo_name">Biola</div>
+            <i class='bx bx-chevron-right' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+        <li>
+            <a href="./student.html">
+                <i class='bx bx-user' ></i>
+            <span class="links_name">Student</span>
+            </a>
+            <span class="tooltip">Student</span>
+        </li>
+        <li>
+          <a class="active" href="./exam.html">
+              <i class='bx bx-task active'></i>
+              <span class="links_name active">Assesment</span>
+          </a>
+          <span class="tooltip">Assesment</span>
+        </li>
+        <li>
+        <a href="./learningmaterial.html">
+            <i class='bx bx-book'></i>
+            <span class="links_name">Course</span>
+        </a>
+        <span class="tooltip">Course</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <div class="name_job">
+                <div class="name" id="greeting"></div>
+                <div class="job">Administrator</div>
+            </div>
+            <a class="button" href="./login.html">
+              <i class='bx bx-log-out' id="log_out" ></i>
+            </a>
+          </div>
+      </li>
+        </ul>
+    </div>
+      
+    <section class="home-section">
+      <div class="container accesscontainer">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a class="btn btn-primary me-md-2" type="button" href="./exam.html"><i class='bx bxs-chevrons-left' style="margin-right: 1px; font-size: 15px" ></i>Back to Menu</a>
+          </div>
+          <div class="container text-center">
+              <h1 class="accesstitle">Exam Access Code Example</h1>
+              <h2 class="accesstype">Exam</h2>
+              <h1 class="accesssubtitle">Access Code</h1>
+              <h1 class="accesscode">220701</h1>
+          </div>
+      </div>
+    </section>
+
+    <script src="../script/greetings.js"></script>
+    <script src="../script/sidebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

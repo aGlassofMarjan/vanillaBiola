@@ -81,3 +81,31 @@ overflow: hidden;
 .navbar.navbar-expand-lg.bg-light{
     font-size: larger;
 }
+
+/* perintilan access code  */
+
+.accesstitle{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.accesstype{
+    margin-bottom: 90px;
+    font-weight: 400;
+    color: #B1588F;
+}
+
+.accesssubtitle{
+    font-size: 38px;
+    font-weight: 600;
+    color: #9ECCA4;
+}
+
+.accesscode{
+    font-size: 128px;
+    font-weight: 700;
+}
+
+.accesscontainer{
+    padding-top: 100px;
+}
